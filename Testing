@@ -1,0 +1,14 @@
+<style>
+  /* Existing styles remain unchanged */
+  
+  @media (max-width: 600px) {
+    .image-grid {
+      flex-direction: column; /* Stack images vertically on smaller screens */
+      align-items: center; /* Center items horizontally */
+    }
+    .image-item {
+      width: 100%; /* Make images take full width on smaller screens */
+      height: auto; /* Let the height be auto to maintain the image's aspect ratio */
+    }
+  }
+</style>
